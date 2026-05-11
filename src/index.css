@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-tactical-bg: #0a0c10;
+  --color-tactical-card: #12151c;
+  --color-tactical-border: #1e293b;
+}
+
+@layer base {
+  body {
+    @apply bg-tactical-bg text-zinc-300;
+  }
+}
+
+.police-grid {
+  background-image: 
+    linear-gradient(rgba(30, 41, 59, 0.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(30, 41, 59, 0.2) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.police-vignette {
+  background: radial-gradient(circle, transparent 20%, rgba(10, 12, 16, 0.8) 100%);
+}

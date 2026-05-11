@@ -1,0 +1,5 @@
+{
+  "name": "Crime Investigation Database",
+  "description": "A high-performance intelligence management platform for law enforcement, featuring case tracking, suspect profiling, and relational mapping between operative nodes.",
+  "requestFramePermissions": []
+}
